@@ -21,7 +21,7 @@ spec:
       containers:
         - name: devops-psu-server
           image: ironvr/devops-psu:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 8000
 ---
